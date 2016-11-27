@@ -1,0 +1,27 @@
+<?php
+require_once 'declaring_namespaces.php';
+
+/**
+ * Created by PhpStorm.
+ * User: murilo
+ * Date: 20/11/16
+ * Time: 15:45
+ *
+ * IMPORTING / ALIASING NAMESPACES:
+ *
+ * ONCE DECLARED, IMPORT NAMESPACES WITH THE " use " OPERATOR
+ * CAN CREATE ALIASES FOR NAMESPACES
+ * EX:
+ * IF COMPLETE NAMESPACE NAME IS PATH1/PATH2/PATH3, SET =E THEN,
+ * WHEN NEED TO CALL, CAN REFERENCE ALIAS AS E/PATH4
+ *
+ * NOTE:
+ * NAMESPACES ARE NOT EQUIVALENT TO CLASSES... A CLASS IS AN ABSTRACT
+ * DEFINITION OF AN OBJECT, WHILE A NAMESPACE IS AN ENVIRONMENT IN WHICH A
+ * CLASS, FUNCTION, OR CONSTANT CAN BE DEFINED
+ *
+ */
+
+use zcpe\php_basics\namespaces\MyClass;
+
+$object = new MyClass(); // outputs: 'Hello World!'

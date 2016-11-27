@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<library>
+        <book isbn="45455634231">
+            <title>The Book</title>
+            <author>The Author</author>
+        </book>
+        <book isbn="72343243253">
+            <title>Another Book</title>
+            <author>Another Author</author>
+        </book>
+        <book isbn="4567890213">
+            <title>My title</title>
+            <author>My author</author>
+        </book>
+</library>

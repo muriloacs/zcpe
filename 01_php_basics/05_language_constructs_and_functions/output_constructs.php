@@ -1,0 +1,42 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: murilo
+ * Date: 20/11/16
+ * Time: 00:50
+ *
+ * OUTPUT CONSTRUCTS:
+ *
+ * die () AND exit ()
+ * THESE CONSTRUCTS ARE EQUIVALENT
+ * USED TO OUTPUT A RESULT AND THEN TERMINATE THE RUNNING SCRIPT
+ *
+ * echo ()
+ * USED TO OUTPUT A RESULT (TEXT, STRINGS, VARIABLES)
+ * IF USING STRINGS CONTAINING QUOTATIONS, MAKE SURE YOU HANDLE
+ * THEM CORRECTLY (USE APOSTROPHE OR ESCAPE WITH \)
+ *
+ * return
+ * USED TO HALT EXECUTION OF A FUNCTION (CALLED WITHIN FUNCTION)
+ * OR OF A SCRIPT (CALLED WITHIN GLOBAL SCOPE)
+ *
+ * print
+ * USED TO OUTPUT A STRING (IS AN OPERATOR)
+ *
+ */
+
+// RETURN
+function foo() {
+    return 'bar' . PHP_EOL;
+}
+
+// ECHO
+echo foo();
+
+// PRINT
+print(foo());
+
+// DIE
+die;
+
+echo 'this phrase will not be echoed';

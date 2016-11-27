@@ -1,0 +1,38 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: murilo
+ * Date: 20/11/16
+ * Time: 16:10
+ *
+ * GLOBAL NAMESPACE CONSTRUCTS:
+ *
+ * FUNCTIONS
+ * CLASSES
+ * INTERFACES
+ * CONSTANTS (OTHER THAN CLASS)
+ * VARIABLES (DEFINED OUTSIDE OF FUNCTIONS OR METHODS)
+ *
+ *
+ * INTERNAL NAMING:
+ *
+ * FUNCTIONS USE UNDERSCORES BETWEEN WORDS
+ * CLASSES USE THE THE DOUBLE UNDERSCORE PREFIX IS RESERVED, AND REFERS TO
+ * ELEMENTS CONSIDERED "MAGICAL"
+ *
+ */
+
+// FUNCTION
+function my_function() {}
+
+// CLASSES
+class myClass {}
+
+// INTERFACES
+interface myInterface {}
+
+// CONSTANTS
+define("MY_CONSTANT", true);
+
+// VARIABLES
+$my_variable = true;
